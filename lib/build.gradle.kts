@@ -11,6 +11,8 @@ plugins {
 
     // Apply the java-library plugin for API and implementation separation.
     `java-library`
+
+    id("io.gitlab.arturbosch.detekt") version("1.23.8")
 }
 
 repositories {
