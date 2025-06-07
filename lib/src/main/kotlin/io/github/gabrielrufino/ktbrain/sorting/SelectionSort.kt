@@ -1,7 +1,7 @@
 package io.github.gabrielrufino.ktbrain.sorting
 
 object SelectionSort {
-    fun sort(array: IntArray) {
+    fun <T: Comparable<T>> sort(array: Array<T>) {
         val n = array.size
 
         for (i in 0 until n - 1) {
